@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Christopher Scholz <github@christopher-scholz.com>"]
 description = "REST API Server of the static personal website for Christopher Scholz, which is build with Rocket."
-repository = "https://github.com/christopherscholz/rust_clienter_server_website/server"
+repository = "https://github.com/christopherscholz/rust_rest_website/server"
 license = "MIT"
 
 [dependencies.rocket]
