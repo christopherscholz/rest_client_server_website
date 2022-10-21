@@ -1,11 +1,11 @@
 services:
   server:
-    container_name: server
+    container_name: rest_server
     build: ./server
     ports:
       - "8000:8000"
   client:
-    container_name: client
+    container_name: rest_client
     build: ./client
     ports:
       - "3000:3000"
